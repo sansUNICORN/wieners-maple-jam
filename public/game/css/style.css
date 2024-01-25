@@ -1,0 +1,19 @@
+html {}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+canvas {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    image-rendering:pixelated;
+}
